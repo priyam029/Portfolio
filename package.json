@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://your-username.github.io/portfolio",
+  "scripts": {
+    "start": "vite --host 127.0.0.1",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build --outDir build",
+    "preview": "vite preview --host 127.0.0.1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest"
+  },
+  "devDependencies": {
+    "gh-pages": "latest"
+  }
+}
